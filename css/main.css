@@ -1,7 +1,15 @@
 .background {
-    background-color: lightblue;
+    background-color: rgb(173, 216, 230);
 }
 
 .mainfont {
     font-family: "Courier New", Courier, monospace;
+}
+
+.headback {
+    background-color: rgb(166, 209, 223);
+}
+
+.welcomehead {
+    font-size: 10vh;
 }
