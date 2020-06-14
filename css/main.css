@@ -8,8 +8,11 @@
 
 .headback {
     background-color: rgb(166, 209, 223);
+    height: 40vh;
+    width: 100%;
 }
 
 .welcomehead {
     font-size: 10vh;
+    text-align: center;
 }

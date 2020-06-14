@@ -1,0 +1,79 @@
+.background {
+    background-color: rgb(173, 216, 230);
+}
+
+.mainfont {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.head {
+    background-color: rgb(166, 209, 223);
+    height: 20vh;
+    margin: 0%;
+}
+
+.padding {
+    background-color: aqua;
+    min-width: 30px;
+    min-height: 30px;
+    width: 10vh;
+    height: 10vh;
+    /*
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    */
+    padding: 10px 30px 20px 40px;
+    margin: 0px;
+    border: 0px;
+
+    align-content: center;
+}
+
+.margin {
+    background-color: aquamarine;
+    width: 10vh;
+    height: 10vh;
+    margin: 10px 30px 20px 40px;
+    padding: 0px;
+    border: 0px;
+    align-content: center;
+}
+
+.border {
+    border-style: solid;
+    background-color: blue;
+    width: 10vh;
+    height: 10vh;
+    margin: 0px;
+    padding: 0px;
+    border-top-width: 10px;
+    border-right-width: 30px;
+    border-bottom-width: 20px;
+    border-left-width: 40px;
+    /*
+    border: 10px 30px 20px 40px; doesnt work
+    */
+    align-content: center;
+}
+.negative-margin1 {
+    margin: 40px 0 0 0;
+    height: 11vh;
+    width: 11vh;
+    background-color: blue;
+}
+.negative-margin2 {
+    font-size: 10px;
+    margin: -10.5vh 0 0 0.5vh;
+    height: 10vh;
+    width: 10vh;
+    background-color: aqua;
+}
+.border-special {
+    margin-top: 40px;
+    height: calc(10vh + 30px);
+    width: calc(10vh + 70px);
+    border: 5px dashed black;
+    border-radius: 20%;
+}
