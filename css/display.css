@@ -1,7 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .background {
     background-color: rgb(173, 216, 230);
 }
 
 .mainfont {
     font-family: "Courier New", Courier, monospace;
+}
+
+/* block and inline can be changed using the display property*/
+.inline {
+    background-color: #4f7a88;
+    /* display: block; */
+}
+.block {
+    background-color: #4f7a88;
+    /* display: inline; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20vh;
 }

@@ -77,3 +77,13 @@
     border: 5px dashed black;
     border-radius: 20%;
 }
+
+.outline {
+    background-color: aquamarine;
+    font-size: 10px;
+    margin: 40px;
+    height: 10vh;
+    width: 10vh;
+    outline: 0.2rem solid black;
+    outline-offset: 10px;
+}
